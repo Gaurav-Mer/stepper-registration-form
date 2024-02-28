@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useForm, FormProvider } from 'react-hook-form';
-import { Stepper, Step, StepLabel, Button, TextField, Select, MenuItem, FormControl, InputLabel, Grid, Autocomplete, Box, Typography, InputAdornment } from '@mui/material';
+import { Stepper, Step, StepLabel, Button, TextField, Select, MenuItem, FormControl, InputLabel, Grid, Autocomplete, Box, InputAdornment } from '@mui/material';
 import "../../App.css";
 import * as yup from "yup"
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -9,7 +9,7 @@ import useDebounce from '../debounce/debounceData';
 import { useDispatch } from 'react-redux';
 import { FormValues, GenderEnum, IDTypeEnum, ResponseInterface } from '../../interfaces/auth';
 import { addUserToRegisterList } from '../../store/slice/userDetails';
-import { ApartmentIcon, BadgeIcon, BusinessIcon, CottageIcon, FmdGoodIcon, PersonIcon, PersonOutlineIcon, PhoneAndroidIcon, PublicIcon } from './iconsLists';
+import { ApartmentIcon, BadgeIcon, BusinessIcon, CottageIcon, FmdGoodIcon, PersonIcon, PersonOutlineIcon, PhoneAndroidIcon } from './iconsLists';
 
 // Define your form steps
 const steps = ['Personal Details', 'Address Details'];
