@@ -1,0 +1,67 @@
+/* global css will appear here  */
+
+.d-flex {
+  display: flex;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-purple {
+  background-color: rgb(171, 48, 171) !important;
+}
+
+.loading {
+  font-weight: 600;
+  color: grey;
+  padding:2px;
+
+}
+
+.text-red {
+  color: red;
+}
+
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.text-red {
+    color: red !important;
+}
+
+
+.ml-1 {
+    margin-left: 5px;  
+}
+
+.text-blue {
+  color: rgb(0, 156, 195);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}

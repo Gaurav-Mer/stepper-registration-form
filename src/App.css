@@ -1,0 +1,89 @@
+.successfullText {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mainContainer {
+ margin: 0px;
+ padding: 0px; 
+ width: 100%;
+}
+
+.formContainer {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  border: 1px solid rgb(237, 233, 233);
+  padding: 10px 50px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+
+.tableData {
+    width: 100%;
+}
+
+.tableHeading {
+  background-color: rgb(227, 186, 227);
+  border: none;
+}
+
+
+.formListing {
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.registerText {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.registerDiv {
+  background-color: white;
+  border-radius: 10px !important;
+  margin-top: 80px !important;
+  padding: 20px !important;
+}
+
+
+.login-btn {
+  color: #1976d2 !important;
+  padding:10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: transparent;
+
+
+}
+
+.dt-length > label {
+ margin-left: 5px !important;
+}
+
+
+ @media screen and (max-width: 760px) {
+    .formContainer {
+      width: 100%;
+      margin:0px;
+      padding:0px;
+      margin-top: 20px;
+      border: 0px;
+      box-shadow: none;
+    }
+ }
+
+ 
+ body {
+  background: rgb(100,89,202);
+  background: radial-gradient(circle, rgba(100,89,202,1) 10%, rgba(160,153,201,1) 100%);
+ }
